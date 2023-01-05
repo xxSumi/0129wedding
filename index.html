@@ -1,0 +1,13 @@
+- var cards = [{ title: 'Wedding Invitation', copy: '会場案内はこちら', button: 'View Sites' }, { title: 'Gallery', copy: '当日の写真を保存して下さい！', button: 'View Sites' }, { title: 'Movie', copy: '映像はこちら！', button: 'View Sites' }, { title: 'Message Board', copy: 'Host', button: 'View Sites' }]
+
+
+mixin card(title, copy, button)
+  .card
+    .content
+      h2.title= title
+      p.copy= copy
+      button.btn= button
+
+main.page-content
+  each card in cards
+    +card(card.title, card.copy, card.button)
