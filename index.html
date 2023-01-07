@@ -1,13 +1,45 @@
-- var cards = [{ title: 'Wedding Invitation', copy: '会場案内はこちら', button: 'View Sites' }, { title: 'Gallery', copy: '当日の写真を保存して下さい！', button: 'View Sites' }, { title: 'Movie', copy: '映像はこちら！', button: 'View Sites' }, { title: 'Message Board', copy: 'Host', button: 'View Sites' }]
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Card Hover Interactions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
 
-
-mixin card(title, copy, button)
-  .card
-    .content
-      h2.title= title
-      p.copy= copy
-      button.btn= button
-
-main.page-content
-  each card in cards
-    +card(card.title, card.copy, card.button)
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main class="page-content">
+  <div class="card">
+    <div class="content">
+      <h2 class="title">Wedding Invitation</h2>
+      <p class="copy">会場案内はこちら</p>
+      <button class="btn">View Sites</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <h2 class="title">Gallery</h2>
+      <p class="copy">当日の写真を保存して下さい！</p>
+      <button class="btn">View Sites</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <h2 class="title">Movie</h2>
+      <p class="copy">映像はこちら！</p>
+      <button class="btn">View Sites</button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <h2 class="title">Message Board</h2>
+      <p class="copy">Host</p>
+      <button class="btn">View Sites</button>
+    </div>
+  </div>
+</main>
+<!-- partial -->
+  
+</body>
+</html>
