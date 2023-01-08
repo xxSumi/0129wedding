@@ -94,6 +94,7 @@ hr {
   line-height: 18px;
 }
 
+
 .card-info {
   width: 100%;
   position: absolute;
@@ -108,7 +109,30 @@ hr {
   z-index: 20;
   opacity: 0;
   transition: bottom 0.3s, opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
-}
+}  .link{
+    display: block;
+    background: salmon;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    transition: background .3s;
+    &:hover{
+      background: lightsalmon;
+    }
+    &::before{
+      content: "";
+      width: 6rem;
+      height: 2rem;
+      background: skyblue;
+      position: absolute;
+      left: -1rem;
+      top: -1.2rem;
+      border-radius: 3rem;
+      pointer-events: none;
+    }
+  }
+
 
 .utility-info {
   position: absolute;
