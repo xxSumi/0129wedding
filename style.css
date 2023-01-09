@@ -5,28 +5,9 @@ body {
   font-weight: 500;
   width: 100%;
   height: 400px;
+  background: url(https://drive.google.com/uc?export=view&id=167eHRFDjEfqJgUjoumWCxZyaod6ndzur) no-repeat top left, url(https://drive.google.com/uc?export=view&id=1640dr4yM34bhGT6Yn5EOypywGV-41Cd3) no-repeat top right;
   background-color: #ffd6d6;
   -webkit-font-smoothing: antialiased;
-}
-
-//背景の横半分画像
-.bg01 span:first-child {
-  display: block;
-  width: 100%;
-  height: 50%;
-  background-image: url(https://drive.google.com/uc?export=view&id=167eHRFDjEfqJgUjoumWCxZyaod6ndzur);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.bg01 span:last-child {
-  display: block;
-  width: 100%;
-  height: 50%;
-  background-image: url(https://drive.google.com/uc?export=view&id=1640dr4yM34bhGT6Yn5EOypywGV-41Cd3);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .title {
