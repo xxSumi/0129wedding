@@ -142,7 +142,6 @@ h1 + p, p + p {
 .card-link::after {
   display: block;
   margin: 0.7em 0 0 0;
-  content: attr(href);
   font-size: 0.75em;
   color: #fff;
   font-weight: normal;
