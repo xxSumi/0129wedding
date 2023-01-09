@@ -6,10 +6,14 @@ body {
   background-image: url(https://drive.google.com/uc?export=view&id=1640dr4yM34bhGT6Yn5EOypywGV-41Cd3);
   background-image: url(https://drive.google.com/uc?export=view&id=167eHRFDjEfqJgUjoumWCxZyaod6ndzur);
   background-position:
-    left 20px center,
-    right 20px center;
+  left 20px center,
+  right 20px center;
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat:
+    no-repeat,
+    no-repeat;
+  background-size:
+    100px;
   background-attachment:fixed;
   width: 100%;
   height: 400px;
