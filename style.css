@@ -38,14 +38,10 @@ h1 + p, p + p {
 }
 
 .card-wrap {
- position: absolute;
- height: 50px;
- width: 200px;
- top: 50%;
- left: 50%;
- transform: translate(-50%,-50%);
- transform-style: preserve-3d;
- cursor: pointer;
+  margin: 10px;
+  transform: perspective(800px);
+  transform-style: preserve-3d;
+  cursor: pointer;
 }
 .card-wrap:hover .card-info {
   transform: translateY(0);
