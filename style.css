@@ -4,6 +4,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   background-image: url(https://drive.google.com/uc?export=view&id=1626FWaqzOMQ8vJGTxkbMBIcYLR-3AnGj);
+  background-size:cover;
   background-color: #ffd6d6;
   -webkit-font-smoothing: antialiased;
 }
