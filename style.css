@@ -126,24 +126,6 @@ h1 + p, p + p {
 }
 
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-}
-
-.background {
-    position: absolute;
-    top: -40px;
-    left: -40px;
-    height: 120%;
-    width: 120%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-filter: blur(30px);
-    filter: blur(30px);
-}
 
 .card {
     position: absolute;
