@@ -8,7 +8,7 @@ body {
   background-image: url(https://drive.google.com/uc?export=view&id=1ow6bKCNFLUb1PMjY5T6GuzZh2meHIn4O);
   background-size: cover;
   background-repeat:no-repeat;
-  background-attachment:fixed;
+  background-position:fixed;
   background-color: #ffd6d6;
   -webkit-font-smoothing: antialiased;
 }
