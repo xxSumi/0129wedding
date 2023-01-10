@@ -1,16 +1,21 @@
 body::before {
-  margin: 40px 0;
-  font-family: "Raleway";
-  font-size: 14px;
-  font-weight: 500;
-  width: 100%;
-  height: 400px;
-  position:fixed;
-  background-image: url(https://drive.google.com/uc?export=view&id=16oBsHhm_PCDr4IOMmBqnnVnUuEf3vOj8);
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-color: #ffd6d6;
-  -webkit-font-smoothing: antialiased;
+background-image:url(https://drive.google.com/uc?export=view&id=16oBsHhm_PCDr4IOMmBqnnVnUuEf3vOj8)
+background-image:no-repeat;
+background-image:center;
+background-color: #ffd6d6;
+
+background-size: cover;
+content: "";
+
+-webkit-font-smoothing: antialiased;
+font-family: "Raleway";
+font-size: 14px;
+position:fixed;
+top: 0;
+left: 0;
+z-index: -1;
+width: 100%;
+height: 100vh;
 }
 
 .title {
