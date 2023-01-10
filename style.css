@@ -9,7 +9,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat:no-repeat;
-  background-attachment:fixed;
+  background-attachment:scroll;
   background-color: #ffd6d6;
   -webkit-font-smoothing: antialiased;
 }
