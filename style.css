@@ -1,14 +1,14 @@
-body {
+body::before {
   margin: 40px 0;
   font-family: "Raleway";
   font-size: 14px;
   font-weight: 500;
   width: 100%;
   height: 400px;
+  position:fixed;
   background-image: url(https://drive.google.com/uc?export=view&id=1ow6bKCNFLUb1PMjY5T6GuzZh2meHIn4O);
   background-size: cover;
   background-repeat:no-repeat;
-  background-attachment:fixed;
   background-color: #ffd6d6;
   -webkit-font-smoothing: antialiased;
 }
