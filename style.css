@@ -159,6 +159,28 @@ h1 + p, p + p {
   font-weight: normal;
 }
 
+.insta-link {
+  display: block;
+  margin: 1.5em 0;
+  padding: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  transition: .15s border ease;
+}
+.insta-link:hover {
+  border-color: #bbb;
+}
+.insta-link::after {
+  display: block;
+  margin: 0.7em 0 0 0;
+  font-size: 0.75em;
+  color: #fff;
+  font-weight: normal;
+}
+
 /* instaボタン全体 */
 .flowbtn3{
 font-family:'Comic Sans MS','Chalkboard SE',sans-serif;/* 好きなフォントに変えてね */
