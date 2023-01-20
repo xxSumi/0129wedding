@@ -206,3 +206,26 @@ font-weight:bold;
 position:relative;
 /*bottom:21px;*/
 }
+
+ul.snsbtniti{
+padding:0!important;
+}
+/* ボタン全体の位置 */
+.snsbtniti{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-around;
+}
+/* ボタン同士の余白 */
+.snsbtniti li{
+flex:0 0 33%;
+text-align:center!important;
+}
+/* ボタンにマウスホバー時 */
+.flowbtn3:hover{
+-webkit-transform:translateY(-5px);
+-ms-transform:translateY(-5px);
+transform:translateY(-5px);
+text-decoration:none;
+}
+
