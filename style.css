@@ -160,15 +160,29 @@ h1 + p, p + p {
 }
 
 .insta-link {
-  display: block;
+  /*display: block;*/
   margin: 1.5em 0;
   padding: 1em;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  /*color: #fff;*/
   border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  transition: .15s border ease;
+  /*border-radius: 4px;*/
+  /*transition: .15s border ease;*/
+  
+  font-family:'Comic Sans MS','Chalkboard SE',sans-serif;
+  border-radius:50%;
+  position:relative;
+  display:inline-block;
+  width:70px;
+  height:70px;
+  font-size:30px;
+  color:#fff!important;
+  transition:.5s;
+}
+.insta-link i{
+position:relative;
+bottom:5px;
 }
 .insta-link:hover {
   border-color: #bbb;
@@ -181,56 +195,14 @@ h1 + p, p + p {
   font-weight: normal;
 }
 
-/* instaボタン全体 */
-.flowbtn3{
-font-family:'Comic Sans MS','Chalkboard SE',sans-serif;/* 好きなフォントに変えてね */
-border-radius:50%;
-position:relative;
-display:inline-block;
-width:70px;
-height:70px;
-font-size:30px;
-color:#fff!important;
-text-decoration:none;
-transition:.5s;
-}
-.flowbtn3 i{
-position:relative;
-bottom:5px;
-}
-
-/* Instagram紫グラデ背景 */
-.insta_btn3{
+.insta-link{
 background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
 background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
 overflow:hidden;
 }
-/* ボタン内のテキスト */
-.flowbtn3 div{
+.insta-link div{
 font-size:11px;	
 font-weight:bold;
 position:relative;
 bottom:21px;
-}
-/* ulタグの内側余白を０にする */
-ul.snsbtniti{
-padding:0!important;
-}
-/* ボタン全体の位置 */
-.snsbtniti{
-display:flex;
-flex-flow:row wrap;
-justify-content:space-around;
-}
-/* ボタン同士の余白 */
-.snsbtniti li{
-flex:0 0 33%;
-text-align:center!important;
-}
-/* ボタンにマウスホバー時 */
-.flowbtn3:hover{
--webkit-transform:translateY(-5px);
--ms-transform:translateY(-5px);
-transform:translateY(-5px);
-text-decoration:none;
 }
