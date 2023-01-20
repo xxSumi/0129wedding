@@ -167,7 +167,7 @@ position:relative;
 display:inline-block;
 width:60px;
 height:60px;
-font-size:15px;
+font-size:10px;
 color:#fff!important;
 text-decoration:none;
 transition:.5s;
@@ -195,24 +195,6 @@ font-size:11px;
 font-weight:bold;
 position:relative;
 bottom:21px;
-}
-
-/* ulタグの内側余白を０にする */
-ul.snsbtniti{
-padding:0!important;
-}
-
-/* ボタン全体の位置 */
-.snsbtniti{
-display:flex;
-flex-flow:row wrap;
-justify-content:space-around;
-
-}
-/* ボタン同士の余白 */
-.snsbtniti li{
-flex:0 0 33%;
-text-align:center!important;
 }
 
 /* ボタンにマウスホバー時 */
