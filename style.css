@@ -160,7 +160,7 @@ h1 + p, p + p {
 }
 
 .insta-link {
-  /*display: block;*/
+  display: block;
   margin: 1.5em 0;
   padding: 1em;
   font-weight: bold;
@@ -173,7 +173,6 @@ h1 + p, p + p {
   font-family:'Comic Sans MS','Chalkboard SE',sans-serif;
   border-radius:50%;
   position:relative;
-  display:inline-block;
   width:70px;
   height:70px;
   font-size:30px;
@@ -201,10 +200,10 @@ background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
 overflow:hidden;
 }
 .insta-link div{
-font-size:6px;	
+font-size:11px;	
 font-weight:bold;
 position:relative;
-/*bottom:21px;*/
+bottom:21px;
 }
 
 ul.snsbtniti{
@@ -216,11 +215,13 @@ display:flex;
 flex-flow:row wrap;
 justify-content:space-around;
 }
+
 /* ボタン同士の余白 */
 .snsbtniti li{
 flex:0 0 33%;
 text-align:center!important;
 }
+
 /* ボタンにマウスホバー時 */
 .flowbtn3:hover{
 -webkit-transform:translateY(-5px);
