@@ -205,10 +205,12 @@ transform:translateY(-15px);
 text-decoration:none;
 }
 
+/*
 .change{
     position: absolute;
     top: 0;
 }
+*/
 
 .flex {
 display: frex;
