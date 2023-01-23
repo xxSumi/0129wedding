@@ -208,3 +208,8 @@ text-decoration:none;
     position: absolute;
     top: 0;
 }
+
+  .copyright {
+    font-size: 10px;
+    text-align: right;
+  }
